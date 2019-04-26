@@ -1,0 +1,52 @@
+body{
+  background-color: #5e2129;
+}
+.container{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+}
+.logo{
+  width: 200px;
+  height: 150px;
+  margin-top: 20px;
+}
+[class*="social"]{
+  margin-top: 75px;
+}
+[class*="navbar"]{
+  width: 100%;
+  min-height: 9%;
+  background-color:orange;
+}
+.container-2{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+}
+p,h1{
+  margin-left: 4px;
+}
+
+
+@media (max-width: 480px) {
+  .container{
+    width: 370px;
+  }
+  .containe-2{
+    width: 480px;
+  }
+  .social{
+    width: 40px;
+    height: 40px;
+    margin-top: 0px;
+  }
+  textarea{
+    width: 300px;
+  }
+  .social{
+    margin: 10px;
+  }
+}
